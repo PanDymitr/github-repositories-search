@@ -1,0 +1,35 @@
+body {
+    padding: 50px 0;
+}
+
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.preloader .loader-inner > div {
+    background-color: red;
+}
+
+.repo-author img {
+    margin: 0 auto 15px;
+
+}
+
+.search-results .pagination {
+    width: 100%;
+}
+
+.search-results .pagination .prev {
+    float: left;
+}
+
+.search-results .pagination .next {
+    float: right;
+}
+
+.search-results .back-to-search {
+    margin-bottom: 20px;
+}
